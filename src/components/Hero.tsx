@@ -15,11 +15,11 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="text-center text-black max-w-4xl mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-light mb-6 leading-tight font-roboto tracking-tight">
+        <div className="text-center text-white max-w-4xl mx-auto px-6">
+          <h1 className="text-5xl md:text-7xl font-light mb-6 leading-tight font-roboto tracking-tight text-white">
             Elite Hockey Gear
           </h1>
-          <p className="text-xl md:text-2xl mb-8 font-light font-roboto opacity-90 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 font-light font-roboto opacity-90 max-w-2xl mx-auto text-white">
             Professional equipment for champions like Connor McDavid
           </p>
           <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-material-lg font-roboto uppercase tracking-wide mb-8">
