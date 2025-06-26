@@ -17,7 +17,7 @@ const Navigation = () => {
               <div className="bg-primary text-primary-foreground px-3 py-2 rounded-lg font-medium text-xl shadow-material">
                 HG
               </div>
-              <span className="ml-3 text-xl font-medium text-foreground font-roboto-slab">Hockey Gear Pro</span>
+              <span className="ml-3 text-xl font-medium text-foreground font-roboto">Hockey Gear Pro</span>
             </div>
           </div>
 

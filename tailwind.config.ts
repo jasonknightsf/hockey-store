@@ -21,7 +21,6 @@ export default {
 		extend: {
 			fontFamily: {
 				'roboto': ['Roboto', 'sans-serif'],
-				'roboto-slab': ['Roboto Slab', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

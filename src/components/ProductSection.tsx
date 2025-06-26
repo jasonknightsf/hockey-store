@@ -28,7 +28,7 @@ const ProductSection = () => {
     <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6 font-roboto-slab">
+          <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6 font-roboto">
             Featured Equipment
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-roboto font-light">
@@ -57,7 +57,7 @@ const ProductSection = () => {
 
               {/* Product Content */}
               <div className="lg:w-1/2 space-y-6">
-                <h3 className="text-3xl md:text-4xl font-light text-foreground font-roboto-slab">
+                <h3 className="text-3xl md:text-4xl font-light text-foreground font-roboto">
                   {product.title}
                 </h3>
                 <p className="text-lg text-muted-foreground leading-relaxed font-roboto font-light">
