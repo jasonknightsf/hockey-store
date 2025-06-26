@@ -1,9 +1,8 @@
-
 const ProductSection = () => {
   const products = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3",
+      image: "https://www.japantimes.co.jp/uploads/imported_images/uploads/2020/05/np_file_12417.jpeg",
       title: "Professional Ice Skates",
       description: "Experience unmatched performance with our top-tier ice skates. Designed for speed, agility, and comfort, these skates are used by professional players worldwide. Features include lightweight carbon fiber construction and precision steel blades.",
       features: ["Carbon fiber boot", "Professional steel blades", "Custom fit technology"]
