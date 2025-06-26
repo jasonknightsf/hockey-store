@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'roboto': ['Roboto', 'sans-serif'],
+				'roboto-slab': ['Roboto Slab', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -67,6 +72,10 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			boxShadow: {
+				'material': '0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04)',
+				'material-lg': '0 8px 16px rgba(0,0,0,0.12), 0 0 16px rgba(0,0,0,0.04)',
 			},
 			keyframes: {
 				'accordion-down': {

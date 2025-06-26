@@ -1,3 +1,4 @@
+
 const Hero = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -9,19 +10,19 @@ const Hero = () => {
           className="w-full h-full object-cover"
         />
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/60"></div>
       </div>
 
       {/* Hero Content */}
       <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        <div className="text-center text-white max-w-4xl mx-auto px-6">
+          <h1 className="text-5xl md:text-7xl font-light mb-6 leading-tight font-roboto-slab tracking-tight">
             Elite Hockey Gear
           </h1>
-          <p className="text-xl md:text-2xl mb-8 font-light">
+          <p className="text-xl md:text-2xl mb-12 font-light font-roboto opacity-90 max-w-2xl mx-auto">
             Professional equipment for champions like Connor McDavid
           </p>
-          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-material-lg font-roboto uppercase tracking-wide">
             Shop Now
           </button>
         </div>
