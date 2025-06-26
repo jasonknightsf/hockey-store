@@ -19,12 +19,29 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-light mb-6 leading-tight font-roboto-slab tracking-tight">
             Elite Hockey Gear
           </h1>
-          <p className="text-xl md:text-2xl mb-12 font-light font-roboto opacity-90 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 font-light font-roboto opacity-90 max-w-2xl mx-auto">
             Professional equipment for champions like Connor McDavid
           </p>
-          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-material-lg font-roboto uppercase tracking-wide">
+          <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-material-lg font-roboto uppercase tracking-wide mb-8">
             Shop Now
           </button>
+          
+          {/* YouTube Video */}
+          <div className="flex justify-center">
+            <div className="w-full max-w-2xl aspect-video">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/4eBoTI6_1Q8?si=uMIY5eW9lDa6rba_" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+                className="rounded-lg shadow-material-lg"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
